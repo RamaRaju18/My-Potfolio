@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=BenchNine:wght@400;700&family=Encode+Sans:wght@300&family=Montserrat:wght@300;400;500&family=Poppins:wght@300&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+body {
+    background-color: black;
+    color: whitesmoke;
+    margin:0px;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(49, 167, 210);
+}
+.logo {
+    height:100px;
+}
+.navbarleft {
+    padding:20px ;
+}
+.navbarright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+.element {
+    padding: 20px;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.home {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+    height: 85vh;
+}
+.heading {
+    text-align: center;
+    font-family:'Arimo', sans-serif;
+    color: beige;
+}
+.homeleft {
+    width:60vw;
+    text-align: right;
+    padding-left: 100px;
+    font-family:'Montserrat', sans-serif;
+}
+.homeright {
+    width:40vw;
+    padding-left: 250px;
+}
+.services {
+    padding: 70px;
+    text-align: center;
+}
+.serv-heading {
+    font-family:'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    color: beige;
+}
+.serv-container {
+    display: flex;
+    flex-direction: row;
+}
+.serv-box {
+    border: 2px solid rgb(47, 195, 236);
+    margin: 20px;
+    width: 400px;
+}
+.serv-h1 {
+    font-family:'Encode Sans', sans-serif;
+    font-size: 30px;
+}
+.serv-p {
+    font-family: 'Montserrat', sans-serif;
+}
+.contact {
+    text-align: center;
+}
+.con-head {
+    font-family: 'BenchNine', sans-serif;
+}
+.social-icons {
+    padding: 20px;
+}
+.socialicon {
+    height: 50px;
+    padding: 10px;
+}
+.social-info {
+    font-family: 'Poppins', sans-serif;
+}
